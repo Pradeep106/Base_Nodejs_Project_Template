@@ -1,7 +1,7 @@
 const express = require("express");
 
-const { ServerConfig,Logger } = require("./config");
-const apiRoutes = require('./routes')
+const { ServerConfig, Logger } = require("./config");
+const apiRoutes = require("./routes");
 const { AboutController, HomeController } = require("./controllers");
 
 const app = express();
