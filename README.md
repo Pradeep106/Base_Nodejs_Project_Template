@@ -29,32 +29,11 @@ Lets take a look inside the `src` folder
     ```
     PORT=3000   
     ```
-- Inside the `src/config` folder createa file named as `config.json` and write the following code 
+- Go inside the `src/` folder `cd src/` and write following command
 ```
-{
-  "development": {
-    "username": "root",
-    "password": null,
-    "database": "database_development",
-    "host": "127.0.0.1",
-    "dialect": "mysql"
-  },
-  "test": {
-    "username": "root",
-    "password": null,
-    "database": "database_test",
-    "host": "127.0.0.1",
-    "dialect": "mysql"
-  },
-  "production": {
-    "username": "root",
-    "password": null,
-    "database": "database_production",
-    "host": "127.0.0.1",
-    "dialect": "mysql"
-  }
-}
+  npm sequelize cli
 ```
+- You will get modal if you don't have previously and `config.json` inside config forlder.
 - If you're setting up your development environment, then write the name of your username or your db, password of your db and in dialect mentino whatever db you are using for ex: mysql, mariadb etc
 - if you're setting up test or prod environment, make sure you also replace the host with the hosted db url.
 
